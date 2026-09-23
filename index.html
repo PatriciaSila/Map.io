@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Heading -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNDERSERVED AREAS IN WAJIR COUNTY_HEALTH_FACILITIES</title>
+    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/> 
+    <!-- link rel="stylesheet" href="https://unpkg.com/leaflet-search@3.0.9/dist/leaflet-search.min.css">
+      STYLE PROPERTIES -->
+    <!-- STYLE PROPERTIES -->
+   <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<!-- Body/Sidebar-->
+<body>
+    <div id="sidebar">
+        
+<div class="title">
+<h3 style="margin: 0; padding: 0;text-align: center;">HEALTH FACILITY ACCESSIBILITY</h3>
+<h4 style="margin: 0; padding: 0;text-align: center;"> Wajir County, Kenya.</h4> </div>
+
+<div class="intro">
+<p>
+This interactive map identifies the distribution of health facilities
+and highlights underserved areas based on accessibility analysis.
+</p>
+</div>
+
+
+<div class="search-container">
+    <input
+        type="text"
+        id="facilitySearch"
+        placeholder="Search health facility..."
+        autocomplete="off"
+    >
+    <div id="searchResults"></div>
+</div>
+<br>
+
+
+<div class="statsH">
+<h4 style="margin: 0; padding: 0;">HEALTH FACILITIES STATISTICS</h4>
+</div>
+<hr>
+
+
+<div id="stats", class="stats">
+Loading...
+</div>
+<hr>
+
+
+    <table class="accessibility-table">
+
+        <thead>
+            <tr>
+                <th>Class</th>
+                <th>Accessibility</th>
+                <th>Area (%)</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Excellent</td>
+                <td>24.13%</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Very High</td>
+                <td>31.71%</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>High</td>
+                <td>23.88%</td>
+            </tr>
+
+            <tr>
+                <td>4</td>
+                <td>Moderately High</td>
+                <td>12.59%</td>
+            </tr>
+
+            <tr>
+                <td>5</td>
+                <td>Moderate</td>
+                <td>4.59%</td>
+            </tr>
+
+            <tr>
+                <td>6</td>
+                <td>Moderately Low</td>
+                <td>1.96%</td>
+            </tr>
+
+            <tr>
+                <td>7</td>
+                <td>Low</td>
+                <td>0.85%</td>
+            </tr>
+
+            <tr>
+                <td>8</td>
+                <td>Very Low</td>
+                <td>0.21%</td>
+            </tr>
+
+            <tr>
+                <td>9</td>
+                <td>Poor</td>
+                <td>0.07%</td>
+            </tr>
+
+        </tbody>
+
+    </table>
+<hr><br>
+
+
+<div class="name">
+<p>
+<i>Created by Patricia Sila</i>
+</p>
+</div>
+</div>
+
+
+<div id="map"></div>
+<img src = "images/northarrow.png" id = "northArrow">
+
+<div class="leaflet-control coordinate"></div>
+
+<!-- Loading Data -->
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<script src="js/Aroad.js"></script>
+<script src="js/Broad.js"></script>
+<script src="js/Croad.js"></script>
+<script src="js/Dispensaries.js"></script>
+<script src="js/Hospitals.js"></script>
+<script src="js/NursingHomes.js"></script>
+<script src="js/Otherroad.js"></script>
+<script src="js/Result.js"></script>
+<script src="js/Wajirdata.js"></script>
+<script src="js/map.js"></script>
+
+</body>
+
+</html>
