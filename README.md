@@ -57,4 +57,4 @@ The healthcare facility data contain attributes such as:
 - Cartographic visualization
 
 
-**Author:** Patricia Sila 
+**Author:** Patricia Sila.
