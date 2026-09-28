@@ -14,25 +14,11 @@ The project combines spatial analysis in GIS with web-based cartographic visuali
 
 ---
 
-## Objectives
-
-The project was developed to:
-
-- Visualize the distribution of healthcare facilities across Wajir County.
-- Assess spatial variation in accessibility to healthcare facilities.
-- Examine the relationship between healthcare facilities, roads, and accessibility.
-- Communicate spatial accessibility patterns through an interactive web map.
-- Demonstrate the application of geospatial analysis to a real-world public-service problem.
-
----
-
 ## Study Area
 
 **Wajir County, Kenya**
 
 Wajir County is located in northeastern Kenya and covers a large, predominantly arid area with dispersed settlements and infrastructure.
-
-The geographic extent and spatial distribution of healthcare facilities make it a useful case study for examining spatial accessibility to essential services.
 
 ---
 
@@ -63,31 +49,12 @@ The healthcare facility data contain attributes such as:
 - Ward
 - Geographic coordinates
 
-
-## Technology Stack
+---
 
 ### GIS & Spatial Analysis
-
-- QGIS
-- Spatial analysis
-- Raster analysis
-- Vector analysis
-- Accessibility modelling
+- Software: QGIS, ArcGIS, Visual Studio Code
+- Accessibility analysis: Raster overlay (population and eucledian/cost distance)
 - Cartographic visualization
-
-### Web Mapping
-
-- Leaflet.js
-- JavaScript
-- HTML
-- CSS
-- GeoJSON
-
-### Data
-
-- GeoJSON
-- Raster-derived accessibility results
-- Spatial datasets representing healthcare facilities, roads and administrative boundaries
 
 
 **Author:** Patricia Sila 
